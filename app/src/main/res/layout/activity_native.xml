@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    tools:context="com.kdh2017.oneto25.NativeActivity">
+
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="320x132"
+        ads:adUnitId="ca-app-pub-1432737054413864/3598623039"
+        android:layout_centerHorizontal="true">
+
+    </com.google.android.gms.ads.NativeExpressAdView>
+
+</RelativeLayout>
